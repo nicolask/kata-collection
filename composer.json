@@ -1,0 +1,30 @@
+{
+    "name": "nicolas/kata-collection",
+    "description": "PHP Kata Collection",
+    "type": "project",
+    "require": {
+        "php" : "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "6.5.*",
+        "mockery/mockery": "1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kata\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kata\\": "tests/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nicolas Krueger",
+            "email": "nicolas.krueger@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
